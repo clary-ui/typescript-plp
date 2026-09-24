@@ -6,3 +6,5 @@ TypeScript was created by Anders Hejlsberg and released by Microsoft in 2012. It
 
 # Getting Started 
 To set up TypeScript, you'll first need to install Node.js. It does not have a set programming environment. I will be using VS Code, which is a common option. Once you have Node.js and an environment, TypeScript can be installed in the command prompt with "npm install -g typescript". When you're ready to run your code, you will open the terminal, type "tsc " and then your file name. In your VS Code folder, a new file will appear with your code translated into JavaScript. You will then type "node " with the name of your .js file, and your code will run. You can add single-line comments to your code by starting with "//" and multi-line comments by starting with "/\*" and ending with  "*\/".
+
+Here is Hello World: HelloWorld.ts
