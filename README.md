@@ -7,7 +7,7 @@ TypeScript was created by Anders Hejlsberg and released by Microsoft in 2012. It
 # Getting Started 
 To set up TypeScript, you'll first need to install Node.js. It does not have a set programming environment. I will be using VS Code, which is a common option. Once you have Node.js and an environment, TypeScript can be installed in the command prompt with "npm install -g typescript". When you're ready to run your code, you will open the terminal, type "tsc " and then your file name. In your VS Code folder, a new file will appear with your code translated into JavaScript. You will then type "node " with the name of your .js file, and your code will run. You can add single-line comments to your code by starting with "//" and multi-line comments by starting with "/\*" and ending with  "*\/".
 
-Here is Hello World: HelloWorld.ts
+Here is Hello World: [HelloWorld.ts](https://github.com/clary-ui/typescript-plp/blob/main/HelloWorld.ts)
 
 # Naming Conventions
 TypeScript (like JavaScript) is case-sensitive. Any change in case creates a different identifier. Variable names can contain letters, numbers, underscores, and dollar signs, but cannot begin with a number. Variable names also cannot be reserved words. Community standards favor camel case.
@@ -32,3 +32,5 @@ Mixed-type operations are allowed. JavaScript allows some operations between dif
 TypeScript checks identifiers, declarations, and type compatibility during compilation. JavaScript establishes variable bindings and performs operations at runtime. Operators have defined rules, but their behavior can depend on the values involved. For example, + performs arithmetic addition with numbers and string concatenation when a string is involved.
 
 TypeScript supports both explicit typing and type inference. Programmers can explicitly declare a type or let TypeScript infer the type from an assigned value. JavaScript does not use TypeScript's type annotations and determines value types at runtime.
+
+Here is Data Types: [dataTypes.ts](https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts)
