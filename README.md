@@ -47,4 +47,4 @@ TypeScript supports 'switch' statements, which compare one value against multipl
 
 The 'break' keyword is generally used after each case to exit the switch statement. Without it, the program continues into the following cases, even if they do not match. This is called fall-through. The final case does not require a break. The 'continue' keyword does not evaluate other switch cases. It is used with loops to skip to the next iteration. However, a switch inside a loop can use 'continue' to move to the next loop iteration.
 
-Here are If/Else, Switch, Logical Operators Code Examples: [dataTypes.ts](https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts)
+Here are If/Else, Switch, Logical Operators Code Examples: [IfElseSwitchLogicalOperators.ts]([https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts](https://github.com/clary-ui/typescript-plp/tree/main))
