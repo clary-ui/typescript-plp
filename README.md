@@ -33,22 +33,18 @@ TypeScript checks identifiers, declarations, and type compatibility during compi
 
 TypeScript supports both explicit typing and type inference. Programmers can explicitly declare a type or let TypeScript infer the type from an assigned value. JavaScript does not use TypeScript's type annotations and determines value types at runtime.
 
-Here is Data Types: [dataTypes.ts](https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts)
+Here are Data Types Code Examples: [dataTypes.ts](https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts)
 
 # If/Else, Switch, Logical Operators
 
 TypeScript uses 'true' and 'false' as its boolean values. They are lowercase and work with comparison operators such as '==', '===', '!=', '>', and '<'. TypeScript supports 'if', 'if/else', and 'if/else if/else' statements. It does not have a separate 'elif', 'elseif', or 'unless' keyword. Instead, it uses 'else if'. '? :' can also be used as a shorter alternative to a simple if/else statement.
 
-**Code Blocks and the Dangling Else Problem**
-
 TypeScript uses curly braces '{ }' to define code blocks under conditional statements. Although braces are optional for some single-line statements, they are recommended for readability. TypeScript also follows JavaScript's dangling else rule. When an 'else' could belong to multiple nested 'if' statements, it always belongs to the closest preceding 'if' that does not already have an 'else'. Using curly braces helps prevent confusion.
 
-**Logical Operators and Short-Circuit Evaluation**
-
 TypeScript supports three main logical operators: '&&' (AND), '||' (OR), and '!' (NOT). AND requires both conditions to be true, OR requires at least one to be true, and NOT reverses a Boolean value. TypeScript also supports short-circuit evaluation. With AND, if the first condition is false, the second is skipped. With OR, if the first condition is true, the second is skipped. This prevents unnecessary operations and can help avoid errors when checking values before using them.
-
-**Switch-Case Statements**
 
 TypeScript supports 'switch' statements, which compare one value against multiple possible cases. A 'default' case can be included to run when none of the other cases match. Switch statements use strict equality ('==='), so both the value and type must match.
 
 The 'break' keyword is generally used after each case to exit the switch statement. Without it, the program continues into the following cases, even if they do not match. This is called fall-through. The final case does not require a break. The 'continue' keyword does not evaluate other switch cases. It is used with loops to skip to the next iteration. However, a switch inside a loop can use 'continue' to move to the next loop iteration.
+
+Here are If/Else, Switch, Logical Operators Code Examples: [dataTypes.ts](https://github.com/clary-ui/typescript-plp/blob/main/dataTypes.ts)
